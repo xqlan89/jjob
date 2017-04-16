@@ -4,13 +4,14 @@
 </div>
   <% @jobs.each do |job| %>
   <tr>
+    <br>
     <td>
       <%= link_to(job.title, job_path(job)) %>
     </td>
     <td>
       <%= link_to("Edit", edit_job_path(job)) %> |
       <%= link_to("Destroy", job_path(job), :method => :delete, :data => { :confirm => "Are u sure?" }) %>
-    </td>  
+    </td>
     <td>
       <%= job.created_at %>
     </td>
