@@ -21,6 +21,15 @@
 
  @import url(http://fonts.googleapis.com/css?family=Roboto);
 
+ html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 100px;
+  }
 
 
  //---------Navbar---------
@@ -133,15 +142,21 @@
  }
 
  //---------Footer---------
+ .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    background-color: #233140;
 
- footer {
+   p {
      color: white;
+     margin-top: 30px;
+   }
  }
 
- footer .footer-below {
-     padding: 25px 0;
-     background-color: #233140;
- }
+ 
 
  /****** LOGIN MODAL ******/
  .loginmodal-container {
