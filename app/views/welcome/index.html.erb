@@ -1,31 +1,45 @@
 <div class="col-md-12">
   <div class="row box">
-    <div class="box-inner col-md-6 col-md-offset-3">
-      <h1 class="title">18K Offer</h1>
-      <p class="slogan">18K Offer 是一个提供18K薪水工作机会的求职网站。
+    <div class="box-inner col-md-7 col-centered">
+      <h1 class="title">
         <br>
-        我们希望借由这个网站，能让大家找到且应征上高薪且优质的工作。
+        fine job</h1>
+      <p class="slogan">1次投递，让海量好机会来找你
         <br>
-        凭借自己的努力和天份也会变 Winner
+
+        年薪20W起，每周精选300+A轮以上最具前景互联网企业
+        <br>
+        凭借自己的努力加上优选，你也会变 Winner！
       </p>
+      <!-- <p class="lead">
+        <%= link_to '戳我！', jobs_path, class: 'btn btn-primary' %>
+        <button type="button" class="btn btn-default btn-lg">
+          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> go ahead
+        </button>
+      </p> -->
+
       <p class="lead">
-        <%= link_to '马上应征', jobs_path, class: 'btn btn-danger' %>
+        <%= link_to jobs_path do %>
+        <button type="button" class="btn btn-default btn-lg">
+          Let's do it!<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> 
+        </button>
+        <% end %>
       </p>
+
     </div>
   </div>
 </div>
-
 <div class="content-section-a">
   <div class="container">
     <div class="row">
       <div class="col-lg-5 col-sm-6">
         <hr class="section-heading-spacer">
         <div class="clearfix"></div>
-        <h2 class="section-heading">找工作一定要带手机</h2>
-        <p class="lead">因为没带手机就不能联络公司</p>
+        <h3 class="section-heading">申请并等待审核</h3>
+        <p class="lead">注册填写“我的档案”后提交申请，我们会在1个工作日内完成审核，您将参加最新一期拍卖。</p>
       </div>
       <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-        <%= image_tag 'pic-1.jpg', class: 'img-responsive' %>
+        <%= image_tag 'p1.jpg', class: 'img-responsive' %>
       </div>
     </div>
   </div>
@@ -37,11 +51,11 @@
       <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
         <hr class="section-heading-spacer">
         <div class="clearfix"></div>
-        <h2 class="section-heading">一定要把履历写好在投</h2>
-        <p class="lead">履历如果不会写就一定要多上网寻求帮助，例如  <a target="_blank" href="http://blog.niclin.tw">Nic 的 Blog</a>! 啦啦啦啦啦啦啦</p>
+        <h3 class="section-heading">开始拍卖</h3>
+        <p class="lead">每周一上午 10 点拍卖准时开始，您的简历经过隐私保护处理后向 Nextoffer 所有企业开放 7 天时间。</p>
       </div>
       <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-        <%= image_tag 'pic-2.jpg', class: 'img-responsive' %>
+        <%= image_tag 'p2.jpg', class: 'img-responsive' %>
       </div>
     </div>
   </div>
@@ -53,11 +67,27 @@
       <div class="col-lg-5 col-sm-6">
         <hr class="section-heading-spacer">
         <div class="clearfix"></div>
-        <h2 class="section-heading">这是可以乱改的字<br>动手试试看吧</h2>
-        <p class="lead">魔改大赛可以参考<a target="_blank" href="https://forum.qzy.camp/">论坛资源</a></p>
+        <h3 class="section-heading">收到邀请</h3>
+        <p class="lead">中意您的公司会直接向您发出包含详细信息的邀请，您将以邮件、微信形式收到多个公司的面试邀请。</p>
       </div>
       <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-        <%= image_tag 'pic-3.jpg', class: 'img-responsive' %>
+        <%= image_tag 'p3.jpg', class: 'img-responsive' %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content-section-b">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h3 class="section-heading">沟通约见</h3>
+        <p class="lead">选择您心仪的公司接受邀请，随后详细沟通、约定面试时间；您也可以直接拒绝不感兴趣的邀请（不会泄露联系方式）。</p>
+      </div>
+      <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+        <%= image_tag 'p5.jpg', class: 'img-responsive' %>
       </div>
     </div>
   </div>

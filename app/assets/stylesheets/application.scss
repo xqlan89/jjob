@@ -37,7 +37,6 @@
  .navbar-default {
      background-color: #212121;
      border-color: #212121;
-     margin-bottom: 0;
      border-radius: 0;
  }
 
@@ -80,13 +79,14 @@
  //---------Box---------
 
  .box {
-     background-image: url("http://ww2.sinaimg.cn/large/006tNc79gy1fewlwf072pj31hc140neo.jpg");
+     background-image: url("http://ww1.sinaimg.cn/large/006tNc79gy1ff1ezcrle1j31hc0zb1kx.jpg");
      background-repeat: no-repeat;
      background-size: cover;
      margin-bottom: 50px;
+     margin-top: -20px;
 
      .box-inner {
-         background-color: rgba(250, 250, 250, 0.69);
+         background-color: default;
          padding-bottom: 5px;
          margin-top: 150px;
          margin-bottom: 150px;
@@ -156,7 +156,29 @@
    }
  }
 
+ //-----common---------
+
+ .col-centered {
+   float: none;
+   margin: 0 auto;
+ }
+ //----admin table---
  
+ .custab{
+   border: 1px solid #ccc;
+
+   padding: 5px;
+   margin: 5% 0;
+   box-shadow: 3px 3px 2px #8D6E63;
+
+   transition: 0.5s;
+ }
+
+ .custab:hover{
+   box-shadow: 3px 3px 0px transparent;
+   transition: 0.5s;
+ }
+
 
  /****** LOGIN MODAL ******/
  .loginmodal-container {
