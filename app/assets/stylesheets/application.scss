@@ -19,7 +19,7 @@
  @import "bootstrap";
  @import "font-awesome";
 
- @import url(http://fonts.googleapis.com/css?family=Roboto);
+ @import url(http://fonts.googleapis.com/css?family=Helveticas);
 
  html {
     position: relative;
@@ -35,20 +35,21 @@
  //---------Navbar---------
 
  .navbar-default {
-     background-color: #212121;
-     border-color: #212121;
+     background-color: rgb(255,255,255);
+     border-color: rgb(255,255,255);
      border-radius: 0;
+     padding-bottom: -2px;
  }
 
  .navbar-default .navbar-brand {
-     color: #EF6C00;
+     color: rgb(45,190,96);
      padding: 10px 15px;
-     line-height: 30px;
+     line-height: 50px;
  }
 
  .navbar-default .navbar-brand:hover,
  .navbar-default .navbar-brand:focus {
-     color: #FF6F00;
+     color: rgb(220,220,220);
      background-color: transparent;
  }
 
@@ -79,7 +80,7 @@
  //---------Box---------
 
  .box {
-     background-image: url("http://ww1.sinaimg.cn/large/006tNc79gy1ff1ezcrle1j31hc0zb1kx.jpg");
+     background-image: url("http://ww3.sinaimg.cn/large/006tNc79ly1ff4jwcpz8lj31kw11xnpf.jpg");
      background-repeat: no-repeat;
      background-size: cover;
      margin-bottom: 50px;
@@ -93,17 +94,21 @@
      }
 
      .title {
+         color: #fff;
          text-align: center;
          margin-bottom: 80px;
+         font-family: "webfont_light",Helvetica,Arial,sans-serif
      }
 
      .slogan {
-         color: #222;
+         color: #fff;
          margin-top: 10px;
          margin-bottom: 50px;
          text-align: center;
-         font-size: 25px;
+         font-size: 20px;
          top: 12px;
+         font-family: "Gotham_SSm_4r",Helvetica,Arial,sans-serif;
+
      }
 
      .lead {
@@ -118,12 +123,14 @@
  .content-section-a {
      padding: 50px 0;
      background-color: #f8f8f8;
+     font-family: "Gotham_SSm_4r",Helvetica,Arial,sans-serif;
  }
 
  .content-section-b {
      padding: 50px 0;
      border-top: 1px solid #e7e7e7;
      border-bottom: 1px solid #e7e7e7;
+     font-family: "Gotham_SSm_4r",Helvetica,Arial,sans-serif;
  }
 
  .section-heading-spacer {
@@ -134,11 +141,13 @@
 
  .section-heading {
      margin-bottom: 30px;
+     font-family: "Gotham_SSm_4r",Helvetica,Arial,sans-serif;
  }
 
  .lead {
      font-size: 18px;
      font-weight: 400;
+     font-family: "Gotham_SSm_4r",Helvetica,Arial,sans-serif;
  }
 
  //---------Footer---------
@@ -148,7 +157,7 @@
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 100px;
-    background-color: #233140;
+    background-color: rgb(211,211,211);
 
    p {
      color: white;
@@ -163,7 +172,7 @@
    margin: 0 auto;
  }
  //----admin table---
- 
+
  .custab{
    border: 1px solid #ccc;
 
@@ -185,7 +194,7 @@
    padding: 30px;
    max-width: 350px;
    width: 100% !important;
-   background-color: #F7F7F7;
+   background-color: rgb(45,190,96);
    margin: 0 auto;
    border-radius: 2px;
    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
@@ -196,7 +205,7 @@
  .loginmodal-container h1 {
    text-align: center;
    font-size: 1.8em;
-   font-family: roboto;
+   font-family: roboto
  }
 
  .loginmodal-container input[type=submit] {
@@ -274,3 +283,35 @@
  .login-help{
    font-size: 12px;
  }
+
+
+ //=-----company===--
+
+ .container-companies {
+    margin-bottom: 60px;
+}
+
+ .hr-title {
+    margin-bottom: 0;
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+ .hr-title span {
+   font-size: 28px;
+   font-weight: 100;
+   font-family: "Gotham_SSm_4r",Helvetica,Arial,sans-serif;
+ 	color:#ff9955;
+
+}
+
+
+  .companies {
+    background-image: url("http://ww3.sinaimg.cn/large/006tNc79gy1ff50xmsu5fj31dk0eyjsv.jpg");
+    background-size: 80%;
+
+    width: 100%;
+    height: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
